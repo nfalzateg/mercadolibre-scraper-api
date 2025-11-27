@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  scraper-api:
+    build: .
+    container_name: mercadolibre-scraper-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+    restart: unless-stopped
+    shm_size: '2gb'  # Necesario para Chrome en Docker
+
