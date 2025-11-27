@@ -106,6 +106,8 @@ Una vez que la API esté corriendo, puedes acceder a:
 
 ## ☁️ Despliegue en AWS EC2
 
+> 📖 **Para una guía paso a paso completa, consulta:** [`GUIA_DESPLIEGUE_EC2.md`](GUIA_DESPLIEGUE_EC2.md)
+
 ### Opción 1: Usando Docker (Recomendado)
 
 1. Construir la imagen:
